@@ -7,11 +7,6 @@ namespace Wes.GuidGenerator
     {
         private static readonly RandomNumberGenerator _randomNumberGenerator = RandomNumberGenerator.Create();
 
-        public SequentialGuidGenerator()
-        {
-
-        }
-
         public Guid Create(SequentialGuidType guidType)
         {
             // We start with 16 bytes of cryptographically strong random data.
