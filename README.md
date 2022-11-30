@@ -3,6 +3,9 @@
 This code is taken from jhtodd/SequentialGuid 
 https://github.com/jhtodd/SequentialGuid
 
+There is a blog about it:
+https://www.codeproject.com/Articles/388157/GUIDs-as-fast-primary-keys-under-multiple-database
+
 I create this repository to make it available on nuget.
 
 ``` C#
