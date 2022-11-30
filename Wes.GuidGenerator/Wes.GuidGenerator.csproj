@@ -5,9 +5,11 @@
 		<Nullable>enable</Nullable>
 		<PackageId>Wes.GuidGenerator</PackageId>
 		<Title>Generate Sequential Guid</Title>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
 		<Authors>Wesley</Authors>
+		<PackageProjectUrl>https://github.com/GitHubWesley/GuidGenerator</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/GitHubWesley/GuidGenerator</RepositoryUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	</PropertyGroup>
 
 </Project>
