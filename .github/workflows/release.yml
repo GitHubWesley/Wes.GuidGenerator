@@ -25,7 +25,13 @@ jobs:
         dotnet-version: 8.x
     - name: Set VERSION variable from tag
       run: echo "VERSION=${GITHUB_REF/refs\/tags\/v/}" >> $GITHUB_ENV
+    - name: Build
+      run: dotnet build --configuration Release /p:Version=$VERSION
     - name: Test
-      run: |
-        echo $VERSION
-        echo ${{ env.VERSION }}
+      run: dotnet test --configuration Release /p:Version=$VERSION --no-build
+    - name: Pack
+      run: dotnet pack --configuration Release /p:Version=$VERSION --no-build --output .
+    - name: Push
+      run: dotnet nuget push SharpToys.SequentialGuid.$VERSION.nupkg --source https://api.nuget.org/v3/index.json --api-key ${NUGET_TOKEN}
+      env:
+        NUGET_TOKEN: ${{ secrets.NUGET_TOKEN }}
