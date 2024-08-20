@@ -7,6 +7,7 @@ There is a blog about it:
 https://www.codeproject.com/Articles/388157/GUIDs-as-fast-primary-keys-under-multiple-database
 
 I create this repository to upgrade the version to .NET Standard 2.1 and make it available on nuget.
+[![NuGet Status](http://img.shields.io/nuget/v/SharpToys.SequentialGuid.svg?style=flat)](https://www.nuget.org/packages/SharpToys.SequentialGuid/)
 
 ``` C#
 var generator = new SequentialGuidGenerator();
