@@ -4,7 +4,7 @@ name: Release
 
 on:
   release:
-    types: [published]
+    types: [created]
 
 defaults:
   run:
