@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Security.Cryptography;
 
-namespace Wes.GuidGenerator
+namespace SharpToys.SequentialGuid
 {
     public class SequentialGuidGenerator
     {

@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Wes.GuidGenerator\Wes.GuidGenerator.csproj" />
+    <ProjectReference Include="..\SharpToys.SequentialGuid\SharpToys.SequentialGuid.csproj" />
   </ItemGroup>
 
 </Project>

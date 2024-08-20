@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Wes.GuidGenerator
+namespace SharpToys.SequentialGuid
 {
     /// <summary>
     /// Describes the type of a sequential GUID value.

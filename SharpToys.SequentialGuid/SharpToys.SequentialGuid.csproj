@@ -3,9 +3,8 @@
 	<PropertyGroup>
 		<TargetFramework>netstandard2.1</TargetFramework>
 		<Nullable>enable</Nullable>
-		<PackageId>Wes.GuidGenerator</PackageId>
+		<PackageId>SharpToys.SequentialGuid</PackageId>
 		<Title>Generate Sequential Guid</Title>
-		<Version>1.0.1</Version>
 		<Authors>Wesley</Authors>
 		<PackageProjectUrl>https://github.com/GitHubWesley/GuidGenerator</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/GitHubWesley/GuidGenerator</RepositoryUrl>

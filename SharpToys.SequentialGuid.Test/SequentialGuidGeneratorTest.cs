@@ -1,6 +1,6 @@
 using Xunit.Abstractions;
 
-namespace Wes.GuidGenerator.Test
+namespace SharpToys.SequentialGuid.Test
 {
     public class SequentialGuidGeneratorTest
     {
