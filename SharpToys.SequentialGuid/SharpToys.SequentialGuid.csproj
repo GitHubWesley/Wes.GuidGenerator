@@ -6,8 +6,8 @@
 		<PackageId>SharpToys.SequentialGuid</PackageId>
 		<Title>Generate Sequential Guid</Title>
 		<Authors>Wesley</Authors>
-		<PackageProjectUrl>https://github.com/GitHubWesley/GuidGenerator</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/GitHubWesley/GuidGenerator</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/wesley-wws/SharpToys.SequentialGuid</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/wesley-wws/SharpToys.SequentialGuid</RepositoryUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	</PropertyGroup>
 
